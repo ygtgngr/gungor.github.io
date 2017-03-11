@@ -1,61 +1,169 @@
-<html>
-<head>
-    <meta name="description"
-          content="Yigit Gungor, an international Computer Science student at Rutger University.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Yigit Gungor</title>
-    <style>
-        header {
-            background-color: #0077B5;
-            position:absolute;
-            top:0;
-            width:100%;
-            height:100px;
-        }
-        #body {
-            padding:10px;
-            padding-top: 100px;
-            padding-bottom: 30px;   /* Height of the footer */
-        }
-        footer {
-            background-color: #0077B5;
-            position:absolute;
-            bottom:0;
-            width:100%;
-            height:30px;
-        }
-        header h1 {
-            margin: 0;
-            color: white;
-            text-align: center;
-            padding-top: 25px;
-        }
-        footer div{
-            margin: 0;
-            color: white;
-            text-align: center;
-            padding-top: 10px;
-        }
-        html, body {
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-</head>
-<body>
-    <div id="container">
-        <header>
-            <h1>Yigit Gungor</h1>
-        </header>
-        <div id="body">
-      
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><div><i class="icon-user"></i><br/>About</div></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><div><i class="icon-file"></i><br/>Resume</div></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><div><i class="icon-envelope"></i><br/>Contact</div></a></li>
+						</ul>
+					</div>
+
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
+
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>
+						Yigit Gungor
+					</h1>
+					<h3>Computer Science | Rutgers University</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<p/>
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-8">
+					<p>I'm an international student from Turkey, majoring in Computer Science at Rutgers, The State University of New Jersey. Ever since I was in fifth grade, I've been extremely interested in software and web development along with data management. In fact, I designed my first website when I was 12 years old. During high school I self taught myself and developed my skills in many Microsoft technologies and products such as C#, WPF, SQL Server, and ASP.Net. At Rutgers, I expanded my knowledge of Computer Science both theory and application wise. Java, C, and Assembly are some of the languages that I learned here at Rutgers. Also I took classes on data structures, computer architecture, software methodology, programming languages, algorithms and data management. Currently, I am a supervisor at College Avenue Campus Computer Labs. I am in charge of internal application development alongside with regular supervisor duties. Also I am a collector of Diecast model cars, electric guitar player, and a laser sailor. 
+					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div>
 
 
-        </div>
-        <footer>
-            <div>&copy; 2017 Yigit Gungor</div>
-        </footer>
-    </div>
-</body>
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<p/>
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Rutgers University - New Brunswick</t><br/>
+						Major: Computer Science <br/>
+						Minor: Business Administration
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<i style="margin-left: 10px;">Expected Graduation:  May 2018</i>	<p/>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Cevre High School</t><br/>
+						Istanbul, Turkey
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<i style="margin-left: 10px;">2010 - 2014</i>
+					<p/>					
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Assistant Lab Supervisor</t><br/>
+						Rutgers New Brunswick Computing Services
+					</p>
+					<p style="margin-left: 10px;"> • Supervise a staff of over 100 lab consultants for over 300 computers at 5 different locations<br/>
+						 • Assist Rutgers patrons, faculty, and staff with sensitive account information issues<br/>
+						 • Teach continual training classes for OIT Lab Consultants<br/>
+						 • Design and develop mobile, desktop and web applications for internal usage<br/>
+						 • Interview and select candidates for the Computer Lab Consultant position<br/>
+						 • Facilitate and restructure training events such as the biannual Site Specific Training for current employee 
+					</p>
+				</div>	
+				
+				<div class="col-lg-3">
+					<i style="margin-left: 10px;">September 2016 - Current</i>
+					<p/>					
+				</div>			
+	
+		</div>
+		<br>
+		<hr>
+	</div>
+
+
+	<section id="contact" name="contact"></section>
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-3">
+					<p><t>Email</t><br/>
+						<a href="mailto:yigit.gungor@outlook.com" target="_top">yigit.gungor@outlook.com </a> <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><t>LinkedIn</t><br/>
+						<a href="https://www.linkedin.com/in/yigitgungor/" target="_blank">linkedin.com/in/yigitgungor </a> <br/>
+					</p>
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+		</div>
+	</div>	
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
 </html>
