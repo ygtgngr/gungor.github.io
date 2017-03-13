@@ -12,7 +12,7 @@ body {
   background-color: #f2f2f2;
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #2d89ef;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -21,7 +21,7 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
-    color: #333;
+    color: #34495e;
 }
 
 
@@ -37,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #b91d47;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -49,7 +49,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #2d89ef;
     text-decoration: none;
     outline: 0;
 }
@@ -92,7 +92,7 @@ a:after {
 }
 
 #topbar-inner {
-	background: #111;
+	background: #122440;
 	line-height: 0;
 	text-align: center;
 }
@@ -127,11 +127,11 @@ a:after {
   font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   padding: 18px 20px 18px 20px;
-  border-left: 1px solid #222;
+  border-left: 1px solid #122440;
 }
 
 	#section-topbar ul#nav a:hover {
-	  background: #222;
+	  background: #2b5797;
 	  text-decoration: none;
 	  border-left: 1px solid #111;
 	}
@@ -186,7 +186,7 @@ a:after {
 /* Intnro Wrap */
 
 #intro {
-	background: #2c3e50;
+	background: #2b5797;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -216,7 +216,7 @@ a:after {
 }
 
 #footwrap {
-	background: #2f2f2f;
+	background: #122440;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -260,7 +260,7 @@ a:after {
 }
 
 .desc p {
-	color: #2f2f2f;
+	color: #34495e;
 }
 
 .desc t {
